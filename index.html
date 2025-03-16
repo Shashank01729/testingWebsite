@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BLOG</title>
+    </head>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+
+        :root {
+        --bgColor: #223344;
+        --bgColor2: #090a0f;
+        --accentColor: #fff;
+        --light-gray: #f0f0f0;
+        --font: "Karla", sans-serif;    
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body{
+            width: 80rem;
+            margin: 0 auto;
+            
+        }
+
+        img{
+            border-radius: 10px;
+            box-shadow: 20px 20px 30px 2px;
+            margin-bottom: 2rem;
+        }
+
+        #id1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #id2{
+            text-align: center;
+            padding: 2rem;
+        }
+
+        #contacts{
+            text-align: center;
+        }
+        
+
+        #bio{
+            background: radial-gradient(
+            ellipse at bottom,
+            var(--bgColor) 40%,
+            var(--bgColor2) 100%
+            );
+            border-radius: 30px;
+        }
+
+        #faq{
+            background-color: var(--light-gray);
+            padding: 1rem;
+            border-radius: 20px;
+        }
+
+        #faq_heading{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .details{
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+            padding-left: 1rem;
+        }
+
+        #bio{
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+        }
+
+        #projects{
+            margin-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;  
+        }
+
+        #achievements{
+            margin-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem; 
+        }
+
+        #skills{
+            margin-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem; 
+        }
+
+        #education{
+            margin-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem; 
+        }
+        
+        .sidebyside{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        footer{
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .white{
+            color: white;
+        }
+
+        #pp{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #name{
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            margin-top: 1rem;
+        }
+
+        #id2{
+            font-size: 1.25rem;
+        }
+
+        #contacts{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 0 10rem;
+            font-size: 1.2rem;
+        }
+
+        .list1{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding-left: 2rem;
+        }
+
+        .list2{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding-left: 2rem;
+        }
+
+    </style>
+    <body>
+        <div class="content">
+            <div id="bio">
+                <table>
+                    <tr id="id1">
+                        <td id="pp">
+                            <h2 class="white" id="name"><strong>Shashank Kumar Pandey</strong></h2>
+                            <img src="SHASHANK.jpg" alt="Shashankc:\Users\HP\Desktop\D\SEM-1\linktree\SHASHANK.jpg" height="300px">
+                        </td>
+                        <td>
+                            <p id="id2" class="white">I am a dynamic person, full of confidence and enthusiasm, 
+                                having good logic building and analytical skills. Currently doing my Bachelor's 
+                                in Computer Science Engineering at Lovely Professional University, Punjab, India.
+                               I am having good commands on DSA.
+                            </p>
+
+                            <br>
+
+                            <div id="contacts" class="white">
+                                <p style="display: inline;">Contact: <a href="#" style="color: rgb(102, 255, 0);">shashank@gmail.com</a></p>
+                                <br><br>
+                                <p style="display: inline;">Linkedin: <a href="#" style="color: rgb(102, 255, 0);">linkedin/in/shashank</a></p>
+                                <br><br>    
+                                <p style="display: inline;">GitHub: <a href="#" style="color: rgb(102, 255, 0);">github.com/shashank01729</a></p>
+                            </div>
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <br>
+            
+            <section id="projects"> 
+                <h2 style="font-size: 2.5rem;">Projects</h2>
+                <ul class="list1">
+                    <li>
+                        <h3 style="font-size: 1.6rem;">Library Management System</h3>
+                        <br>
+                        <p>Library Management Application - developed a desktop application by using java swing and MYSQL server</p>
+                        <p>Hosted Link: <a href="#">example.com</a></p>
+                        <p>Github Link: <a href="#">github.com/shashank/ecommerce</a></p>
+                    </li>
+                    <li>
+                        <h3 style="font-size: 1.6rem;">Friendly Chat App - Friendly</h3>
+                        <br>
+                        <p>Friendly Chat - An android application making use of firebase, to help people connect and chat by sending messages and images, also having login options.</p>
+                        <p>Hosted Link: <a href="#">example.com/blog</a></p>
+                        <p>GitHub Link: <a href="#">github.com/shashank/blog</a></p>
+                    </li>
+                    <li>
+                        <h3 style="font-size: 1.6rem;">Secure Messanger App - Secure</h3>
+                        <br>
+                        <p>Secure Messenger App - An Android application to have secure communication between the sender and recipient, using a number of cryptography algorithms like AES, DES, RSA techniques for encryption and decryption.</p>
+                        <p>Hosted Link: <a href="#"> example.com/dashboard</a> </p>
+                        <p>GitHub Link: <a href="#">github.com/shashank/dashboard</a> </p>
+                    </li>
+                </ul>
+            </section>
+
+    
+            
+                <section id="education">
+                    <h2 style="font-size: 2.5rem;"><strong>Education</strong></h2>
+                    <ul class="list2">
+                        <li>BTech CSE, Lovely Professional University</li>
+                        <li>Senior Secondary, Kendriya Vidyalaya IIM Lucknow</li>
+                        <li>Higher Secondary, Kendriya Vidyalaya IIM Lucknow</li>
+                    </ul>
+                </section>
+                
+                <section id="achievements">
+                    <h2 style="font-size: 2.5rem;">Achievements</h2>
+                    <ul class="list2">
+                        <li>Service Selection Board(Recommended)</li>
+                        <li>Cleared NDA Twice</li>
+                        <li>Cleared Maths Olympiad Twice</li>
+                    </ul>
+                </section>
+
+                <section id="skills">
+                    <h2 style="font-size: 2.5rem;">Skills</h2>
+                    <ul class="list2">
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                    </ul>
+                </section>
+            </div>
+    
+            <section id="faq">
+                <h2 id="faq_heading">Frequently Asked Questions</h2>
+                <div class="details">
+                    <details>
+                        <summary>
+                            Question 1: What is Lorem Ipsum?
+                        </summary>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </details>
+        
+                    <details>
+                        <summary>
+                            Question 2: How do I get started?
+                        </summary>
+                        <p>
+                            To get started, you can follow the instructions provided in the user manual.
+                        </p>
+                    </details>
+        
+                    <details>
+                        <summary>
+                            Question 3: Can I customize the settings?
+                        </summary>
+                        <p>
+                            Yes, you can customize the settings according to your preferences in the options menu.
+                        </p>
+                    </details>
+        
+                    <details>
+                        <summary>
+                            Question 4: Is there a mobile app available?
+                        </summary>
+                        <p>
+                            Yes, we have a mobile app available for both iOS and Android devices. You can download it from the respective app stores.
+                        </p>
+                    </details>
+        
+        
+                    <details>
+                        <summary>
+                            Question 5: How can I contact customer support?
+                        </summary>
+                        <p>
+                            You can reach our customer support team through the contact form on our website or by calling our helpline at XXX-XXXX.
+                        </p>
+                    </details>
+                </div>
+            </section>
+            
+            <br>
+            <hr>
+
+            <footer>
+                <p>&copy; 2024 Shashank. All right reserved.</p>
+            </footer>
+    </body>
+</html>
